@@ -1,0 +1,16 @@
+1.	Bejön-e a weboldal
+2.	Vannak-e rajta gombok és a táblázat fejlécek megjelennek-e
+3.	Create location gombra rányomunk -> Az űrlap megjelent és tartalmaz felvihető adatokat (Name -> kötelező mező, Coordinates -> kötelező mező, Interesting at, Tags)
+4.	Kötelező mezők valóban kötelezőek-e
+5.	A mezőkbe csak a megfelelő formátumú adatokat tudod megadni, szélességi koordináta -90 és 90 között, hosszúsági -180 és 180 között kell legyen -> ehhez határérték teszt kell
+6.	Van két gombunk -> Create vagy Cancel
+7.	Cancel esetében, nem mentődik
+8.	Create esetében pedig bekerül a táblázatba az általunk megadott adatok
+9.	Az űrlapnak be kell zárodni -> Create és Cancel esetében is
+10.	Create, Cancel -> ha a táblázat nem az első oldalon volt akkor odaugrik
+11.	Sikeres felvétel esetén üzenet megjelenik -> valami üzenet
+12.	Refresh table -> kipróbálni hogy frissül- rányomva, valószínű első oldalra ugrik
+13.	Vegyünk fel több mint 10 kedvencet, hogy legyen több oldalunk is
+14.	Lapozni tudunk-e a táblázat oldalai között, csak az a gomb aktív amerre lehet lépni
+15.	Edit gomb kipróbálása -> minden mezőt lehessen szerkeszteni, a megfelelő szabályokkal –> Updatelni lehet, ekkor kicseréli az értékeket és itt az első oldalra ugrik, Cancel-nél pedig nem módosul az érték
+16.	Delete -> törlődik az adott sor, fel kell ugrania megerősítésnek, visszaugrik az első oldalra, ha van folyamatban űrlap szerkesztés az bezáródik
