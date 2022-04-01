@@ -63,7 +63,7 @@ class locationsPage:
         self.driver.find_element(By.CSS_SELECTOR, "#locations-table-tbody > tr > td:nth-child(6) > button.btn.btn-danger").click()
 
     def wait_for_delete_confirm_message(self, message):
-            self.wait.until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, "#delete-location-form > p:nth-child(1)"), message))
+        self.wait.until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, "#delete-location-form > p:nth-child(1)"), message))
 
     def click_on_delete_location_confirm_btn(self):
         self.driver.find_element(By.CSS_SELECTOR, "[value='Delete location']").click()
